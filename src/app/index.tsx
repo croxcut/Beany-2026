@@ -1,14 +1,14 @@
 import { useRouter } from 'expo-router';
-import { View } from 'react-native';
-import "../global.css";
-import LoginPage from './auth/login';
+import { View, Text } from "react-native";
+import "./global.css";
 
 export default function Index() {
   const router = useRouter();
 
   return (
     <View>
-      <LoginPage></LoginPage>
+        <Text className="text-gray-700 font-medium mb-2">
+        </Text>
     </View>
   );
 }
